@@ -47,9 +47,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ListView
+        android:id="@+id/item_pacote_listview"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/item_pacote"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintBottom_toBottomOf="parent"/>
