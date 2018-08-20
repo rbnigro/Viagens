@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Viagem</string>
     <string name="textview">TextView</string>
+    <string name="brasil">Brasil</string>
+    <string name="todo">TODO</string>
+    <string name="especiais">Especiais</string>
 </resources>
