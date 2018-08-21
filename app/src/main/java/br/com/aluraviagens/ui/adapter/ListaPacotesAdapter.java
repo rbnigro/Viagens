@@ -88,7 +88,7 @@ public class ListaPacotesAdapter extends BaseAdapter {
 
     private Drawable devolveDrawble(Pacote pacote) {
         Resources resources = context.getResources();
-        int idDrawble = resources.getIdentifier(pacote.getImagem(), "drawble", context.getPackageName());
+        int idDrawble = resources.getIdentifier(pacote.getImagem(), "DRAWABLE", context.getPackageName());
         Resources.Theme tema = ((Activity)context).getTheme();
         Drawable drawableImagemPacote = resources.getDrawable(idDrawble, tema);
         return drawableImagemPacote;
