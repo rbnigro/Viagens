@@ -92,6 +92,12 @@ public class ListaPacotesAdapter extends BaseAdapter {
         Resources.Theme tema = ((Activity)context).getTheme();
         Drawable drawableImagemPacote = resources.getDrawable(idDrawble, tema);
         return drawableImagemPacote;
+
+        /*
+            git fetch --all
+            git reset --hard origin/master
+            git pull origin master
+        */
     }
 
     private void mostraLocal(View viewCriada, Pacote pacote) {
