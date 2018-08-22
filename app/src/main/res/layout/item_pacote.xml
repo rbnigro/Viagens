@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:cardCornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/item_pacote_imagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -78,6 +79,8 @@
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="@id/item_pacote_dias"
                 app:layout_constraintTop_toBottomOf="@id/item_pacote_dias"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
                 tools:text="@sample/pacote.json/pacotes/preco" />
 
         </android.support.constraint.ConstraintLayout>
